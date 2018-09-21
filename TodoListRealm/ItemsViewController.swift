@@ -36,6 +36,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         try! realm.write {
             item.isDone = !item.isDone
         }
+        
     }
     
     /* Implement the Wipe to Delete functionality
